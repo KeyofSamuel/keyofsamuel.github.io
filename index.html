@@ -1,23 +1,53 @@
 ---
-layout: default
-title: Samuel Campbell, Technologist
+#title: "Technology and Music"
+title: "Samuel A. Campbell"
+layout: splash
+permalink: /
+date: 2019-01-23T11:48:41-04:00
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: images/cassette-markus_spiske-unsplash.jpg
+  #cta_label: "Download"
+  #cta_url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Markus Spiske on Unsplash**](https://unsplash.com)"
+excerpt: "Technology. Music. And everything between."
+intro: 
+  - excerpt: "My life, at least the part that would interest anybody, is technology and music. Here I'll document my journeys and projects.  Someone may find it interesting... "
+feature_row:
+  - image_path: 
+    alt: "Technology1"
+    title: "Technology"
+    excerpt: "Projects, guides and documentation"
+    url: "/technology/"
+    btn_label: "Technology Portfolio"
+    btn_class: "btn--primary"
+  - image_path:
+    alt: "Ramblings"
+    title: "Ramblings Between"
+    excerpt: "Because writing down those random thoughts bouncing around in your head is a good idea"
+    url: "/blog/"
+    btn_label: "Read the Blog"
+    btn_class: "btn--inverse"
+  - image_path: 
+    title: "Music"
+    excerpt: "Music, projects and a little technology"
+    url: "/music/"
+    btn_label: "Music Portfolio"
+    btn_class: "btn--primary"
+feature_row2:
+  - image_path: unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    # add this below to create another feature row --> {% include feature_row id="feature_row2" type="left" %}
 ---
-<div class="blurb">
-	<h1>Hi! Welcome to my site.</h1>
 
-	<p>
-	For right now, this is my small corner of the internet.  I intend to finally do a little writing.  I'm a network and systems engineer, open source advocate, technical writer and musician.  It's hard to say right now what's going to end up on this site, but it will most likely involve one of those things.
-	</p>
+{% include feature_row id="intro" type="center" %}
 
-	<p>
-	...
-	</p>
-
-	<p>
-	Without resorting to a .gif of `Under Construction,' this site is a work in progress.  It's built using Jekyll, at which I'm completely new.  I thought this would be an enjoyable and simple way to get some writing done without the hassle of maintaining a WordPress (or other CMS) site.  This site may change sporadically (and drastically) as I figure out Jekyll and how to streamline its style.  Feel free to drop me an email if you have any constructive comments.
-	</p>
-
-	<!-- <h2> Don't forget about the Atom feed</h2> -->
-</div><!-- /.blurb -->
+{% include feature_row %}
 
 
