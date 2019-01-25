@@ -115,7 +115,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:samuel.campbell.000@gmail.com"
+      url: "mailto:samuel.campbell.001@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -162,6 +162,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _drafts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
