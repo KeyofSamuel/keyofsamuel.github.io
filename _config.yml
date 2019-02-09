@@ -21,7 +21,7 @@ title_separator          : "-"
 name                     : "Samuel A. Campbell"
 description              : ""
 url                      : https://keyofsamuel.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : / # the subpath of your site, e.g. "/blog"
 repository               : "keyofsamuel/keyofsamuel.github.io"
 teaser                   : #/assets/images/teaser.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 overlay_image            : #/assets/images/teaser.png
@@ -118,7 +118,7 @@ author:
       url: "mailto:samuel.campbell.001@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://keyofsamuel.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -131,6 +131,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/samuel-campbell-8829b6113/"
 
 # Site Footer
 footer:
@@ -153,7 +156,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-    - label: LinkedIn
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/samuel-campbell-8829b6113/"
 
@@ -284,7 +287,14 @@ compress_html:
   ignore:
     envs: development
 
-
+collections:
+  music:
+    output: true
+    permalink: /:collection/:path/
+  technology:
+    output: true
+    permalink: /:collection/:path/
+    
 # Defaults
 defaults:
   # _posts
@@ -305,3 +315,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _technology
+  - scope:
+      path: ""
+      type: technology
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _music
+  - scope:
+      path: ""
+      type: music 
+    values:
+      layout: single
+      author_profile: false
+      share: true
