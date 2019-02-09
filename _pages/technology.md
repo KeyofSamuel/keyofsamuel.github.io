@@ -1,10 +1,13 @@
 ---
 title: "Technology Portfolio"
+layout: collection
 permalink: /technology/
+collection: technology
+entries_layout: grid
 #excerpt: ""
+last_modified_at: 2019-02-09T00:00:00
 header:
   image: /images/technology_image.png
-  #image: /images/technology_image.jpg
   #teaser: /images/icon.jpg
 #sidebar:
 #  - title: "Role"
@@ -13,20 +16,15 @@ header:
  #   text: "Designer, Front-End Developer"
  # - title: "Responsibilities"
  #   text: "Reuters try PR stupid commenters should isn't a business model"
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+#gallery:
+#  - url: /latex-templates/
+#    #url: /assets/images/unsplash-gallery-image-1.jpg
+#    image_path: images/latex-project-logo.svg
+#    alt: "LaTeX2e Templates"
 
 #Put this line below for including the gallery images
 #{% include gallery caption="This is a sample gallery to go along with this case study." %}
 ---
 
-Believe me, I have done some things.  They'll be here soon.
+This is a list of projects and accomplishments in technology.  Some of these I do in my spare time, others have been part of my day job.  And sometimes that overlaps quite a bit.  Links below will open pages with more details about each item.  For more conversational articles about technology, use this [link]({% link _pages/tags-technology.md %}) to see a list of technology related blog articles.
 
