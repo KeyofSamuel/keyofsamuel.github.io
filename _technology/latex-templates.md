@@ -11,5 +11,8 @@ Just about all parts of the technology field require some documentation.  Even s
 
 The following links are to my GitHub repositories containing several different types of LaTeX templates.  These templates were created to provide an easy place to start creating documents without having to have a complete understanding of all the different preamble options and customizations.  As long as you understand the basics of the tempate and LaTeX specific markdown, it should be easy to build good looking and functional documents.
 
-#### Full Page Template
-[Full Page Template](https://github.com/KeyofSamuel/full_book-template)
+#### Full Book Template
+[Full Book Template](https://github.com/KeyofSamuel/full_book-template)
+
+#### Single Page Template
+[Single Page Template](https://github.com/KeyofSamuel/single_page-template)
