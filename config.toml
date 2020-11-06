@@ -10,27 +10,27 @@ summaryLength = 30
   [[menu.main]]
     identifier = "home"
     name = "HOME"
-    url = "/"
+    url = "https://keyofsamuel.com"
     weight = 1
   [[menu.main]]
     identifier = "about"
     name = "ABOUT"
-    url = "/about"
+    url = "https://keyofsamuel.com/about"
     weight = 2
   [[menu.main]]
     identifier = "technology"
     name = "TECHNOLOGY PORTFOLIO"
-    url = "/portfolio/technology"
+    url = "https://keyofsamuel.com/portfolio/technology"
     weight = 3
   [[menu.main]]
     identifier = "music"
     name = "MUSIC PORTFOLIO"
-    url = "/portfolio/music"
+    url = "https://keyofsamuel.com/portfolio/music"
     weight = 4
   [[menu.main]]
     identifier = "blog"
     name = "RAMBLING BLOG"
-    url = "/posts"
+    url = "https://keyofsamuel.com/posts"
     weight = 5
 
 [markup]
